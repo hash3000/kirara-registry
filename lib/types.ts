@@ -3,7 +3,7 @@ export interface PyPIInfo {
   description: string
   author: string
   homePage: string
-  bugTrackUrl: string
+  bugTrackerUrl: string
   documentUrl: string
 }
 

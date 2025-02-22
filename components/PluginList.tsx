@@ -77,14 +77,14 @@ export function PluginList({ plugins, isAdmin = false, onRefreshCache, isLoading
                       项目主页
                     </Button>
                   )}
-                  {plugin.pypiInfo?.bugTrackUrl && (
-                    <Button variant="outline" onClick={() => window.open(plugin.pypiInfo?.bugTrackUrl, '_blank')} className="mr-2">
+                  {plugin.pypiInfo?.bugTrackerUrl && (
+                    <Button variant="outline" onClick={() => window.open(plugin.pypiInfo?.bugTrackerUrl, '_blank')} className="mr-2">
                       问题反馈
                     </Button>
                   )}
                   {plugin.pypiInfo?.documentUrl && (
                     <Button variant="outline" onClick={() => window.open(plugin.pypiInfo?.documentUrl, '_blank')} className="mr-2">
-                      插件文档
+                      使用文档
                     </Button>
                   )}
                 </div>

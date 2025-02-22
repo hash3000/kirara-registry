@@ -15,7 +15,7 @@ export async function fetchPyPIInfo(plugin: Plugin): Promise<PyPIInfo> {
     description: data.info.summary,
     author: data.info.author,
     homePage: data.info.home_page,
-    bugTrackUrl: data.info.project_urls['Bug Tracker'],
+    bugTrackerUrl: data.info.project_urls['Bug Tracker'],
     documentUrl: data.info.project_urls['Documentation'],
   }
 }
