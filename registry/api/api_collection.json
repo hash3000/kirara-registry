@@ -1,0 +1,6 @@
+{
+  "name": "api_collection",
+  "description": "提供使用 api 的各类 block,初版包含随机小姐姐视频，随机 cos，随机表情包，搜狗搜图.(示例工作流依赖scheduler插件的auto_execute_tools)",
+  "author": "chuansir",
+  "pypiPackage": "chatgpt-mirai-qq-bot-api-collection"
+}
