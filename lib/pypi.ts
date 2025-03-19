@@ -4,8 +4,7 @@ import { Plugin, PyPIInfo } from "./types"
 export async function fetchPyPIInfo(plugin: Plugin): Promise<PyPIInfo> {
   const response = await fetch(`https://pypi.org/pypi/${plugin.pypiPackage}/json`, {
     next: {
-      revalidate: 60 * 60 * 24, // 24 hours
-      tags: [`plugins:${plugin.name}`, 'plugins'],
+      revalidate: 60 * 60 * 6, // 6 hours
     },
   })
   const data = await response.json()
