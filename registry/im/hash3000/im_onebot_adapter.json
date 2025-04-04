@@ -1,0 +1,7 @@
+{
+    "name": "OneBot V11 适配器",
+    "description": "新版 Onebot V11 协议适配器，适用于 Kirara AI v3.2.0 及以上版本。",
+    "author": "hash3000, cloxl",
+    "pypiPackage": "kirara-ai-onebot-adapter"
+  }
+  
